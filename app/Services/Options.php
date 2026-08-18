@@ -33,7 +33,7 @@ class Options
         $defaultOptions = [
             'ns_registration_enabled' => 'no',
             'ns_store_name' => 'MPOS',
-            'ns_pos_allow_decimal_quantities' => 'yes',
+            'ns_pos_allow_decimal_quantities' => 'no',
             'ns_pos_quick_product' => 'yes',
             'ns_pos_show_quantity' => 'yes',
             'ns_currency_precision' => 2,
