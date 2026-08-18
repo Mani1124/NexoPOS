@@ -342,29 +342,6 @@ class MenuService
                 ),
             ),
             AsideMenu::menu(
-                label: __( 'Modules' ),
-                icon: 'la-plug',
-                identifier: 'modules',
-                permissions: [ 'manage.modules' ],
-                childrens: AsideMenu::childrens(
-                    AsideMenu::subMenu(
-                        label: __( 'List' ),
-                        identifier: 'modules',
-                        href: ns()->url( '/dashboard/modules' )
-                    ),
-                    AsideMenu::subMenu(
-                        label: __( 'Upload Module' ),
-                        identifier: 'upload-module',
-                        href: ns()->url( '/dashboard/modules/upload' )
-                    ),
-                    AsideMenu::subMenu(
-                        label: __( 'Marketplace' ),
-                        identifier: 'marketplace',
-                        href: ns()->url( '/dashboard/modules/marketplace' )
-                    ),
-                ),
-            ),
-            AsideMenu::menu(
                 label: __( 'Users' ),
                 icon: 'la-users',
                 identifier: 'users',
