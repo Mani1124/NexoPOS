@@ -74,7 +74,7 @@ class AdService
         $ads = [
             [
                 'title' => __( 'Need Something Specific?' ),
-                'message' => __( 'Check out our store for exclusive NexoPOS modules.' ),
+                'message' => __( 'Check out our store for exclusive MPOS modules.' ),
                 'icon' => 'la-store',
                 'url' => ns()->route( 'ns.dashboard.modules-marketplace' ),
                 'routes' => [],
@@ -91,7 +91,7 @@ class AdService
 
         if ( $marketplaceService->testConnection() ) {
             $ads[] = [
-                'title' => __( 'New to NexoPOS?' ),
+                'title' => __( 'New to MPOS?' ),
                 'message' => __( 'Connect your store to our marketplace and discover new modules.' ),
                 'icon' => 'la-plug',
                 'url' => ns()->route( 'ns.dashboard.modules-marketplace' ),

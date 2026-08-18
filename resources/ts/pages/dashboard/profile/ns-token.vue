@@ -4,7 +4,7 @@
             <div class="mb-4">
                 <ns-notice>
                     <template #title>{{ __( 'About Token' ) }}</template>
-                    <template #description>{{ __( `Token are used to provide a secure access to NexoPOS resources without having to share your personal username and password.
+                    <template #description>{{ __( `Token are used to provide a secure access to MPOS resources without having to share your personal username and password.
                        Once generated, they won\'t expires until you explicitly revoke it.` ) }}
                     </template>
                 </ns-notice>

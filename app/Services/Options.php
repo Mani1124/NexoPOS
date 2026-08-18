@@ -32,11 +32,17 @@ class Options
 
         $defaultOptions = [
             'ns_registration_enabled' => 'no',
-            'ns_store_name' => 'NexoPOS',
+            'ns_store_name' => 'MPOS',
             'ns_pos_allow_decimal_quantities' => 'yes',
             'ns_pos_quick_product' => 'yes',
             'ns_pos_show_quantity' => 'yes',
             'ns_currency_precision' => 2,
+            'ns_currency_symbol' => '₹',
+            'ns_currency_iso' => 'INR',
+            'ns_currency_prefered' => 'symbol',
+            'ns_currency_position' => 'before',
+            'ns_currency_thousand_separator' => ',',
+            'ns_currency_decimal_separator' => '.',
             'ns_pos_hide_empty_categories' => 'yes',
             'ns_pos_unit_price_ediable' => 'yes',
             'ns_pos_order_types' => [ 'takeaway', 'delivery' ],

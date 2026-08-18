@@ -30,6 +30,7 @@
     "file": "assets/chart--HL2-LwL.js",
     "name": "chart"
   },
+<<<<<<< Updated upstream
   "_components-fSoVY9cq.js": {
     "file": "assets/components-fSoVY9cq.js",
     "name": "components",
@@ -38,6 +39,16 @@
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js",
+=======
+  "_components-DKwolqP8.js": {
+    "file": "assets/components-DKwolqP8.js",
+    "name": "components",
+    "isDynamicEntry": true,
+    "imports": [
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js",
+>>>>>>> Stashed changes
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "resources/ts/bootstrap.ts",
@@ -60,18 +71,32 @@
     "file": "assets/lang-BINodpp-.js",
     "name": "lang"
   },
+<<<<<<< Updated upstream
   "_ns-avatar-YvoxmKg3.js": {
     "file": "assets/ns-avatar-YvoxmKg3.js",
     "name": "ns-avatar",
     "imports": [
       "_lang-BINodpp-.js",
       "_ns-avatar-image-C-y3Lfpo.js",
+=======
+  "_ns-avatar-CAnl4nW4.js": {
+    "file": "assets/ns-avatar-CAnl4nW4.js",
+    "name": "ns-avatar",
+    "imports": [
+      "_lang-BINodpp-.js",
+      "_ns-avatar-image-BiCXiaX2.js",
+>>>>>>> Stashed changes
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js"
     ]
   },
+<<<<<<< Updated upstream
   "_ns-avatar-image-C-y3Lfpo.js": {
     "file": "assets/ns-avatar-image-C-y3Lfpo.js",
+=======
+  "_ns-avatar-image-BiCXiaX2.js": {
+    "file": "assets/ns-avatar-image-BiCXiaX2.js",
+>>>>>>> Stashed changes
     "name": "ns-avatar-image",
     "imports": [
       "__plugin-vue_export-helper-DlAUqK2U.js",
@@ -82,14 +107,20 @@
     "file": "assets/ns-hotpress-BNsPSP9W.js",
     "name": "ns-hotpress"
   },
+<<<<<<< Updated upstream
   "_ns-orders-preview-popup-ageqe_d0.js": {
     "file": "assets/ns-orders-preview-popup-ageqe_d0.js",
+=======
+  "_ns-orders-preview-popup-C-WaC5_K.js": {
+    "file": "assets/ns-orders-preview-popup-C-WaC5_K.js",
+>>>>>>> Stashed changes
     "name": "ns-orders-preview-popup",
     "imports": [
       "resources/ts/bootstrap.ts",
       "_currency-D3_TCvZd.js",
       "_lang-BINodpp-.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
+<<<<<<< Updated upstream
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js"
@@ -97,10 +128,20 @@
   },
   "_ns-pos-shipping-popup-Wxy_X7O0.js": {
     "file": "assets/ns-pos-shipping-popup-Wxy_X7O0.js",
+=======
+      "_runtime-core.esm-bundler-CF9jxWpW.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js"
+    ]
+  },
+  "_ns-pos-shipping-popup-J2_RdaGm.js": {
+    "file": "assets/ns-pos-shipping-popup-J2_RdaGm.js",
+>>>>>>> Stashed changes
     "name": "ns-pos-shipping-popup",
     "imports": [
       "resources/ts/bootstrap.ts",
       "_lang-BINodpp-.js",
+<<<<<<< Updated upstream
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
@@ -111,6 +152,18 @@
   },
   "_ns-procurement-quantity-DWEfDANb.js": {
     "file": "assets/ns-procurement-quantity-DWEfDANb.js",
+=======
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js",
+      "_runtime-core.esm-bundler-CF9jxWpW.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-orders-preview-popup-C-WaC5_K.js",
+      "_currency-D3_TCvZd.js"
+    ]
+  },
+  "_ns-procurement-quantity-BBD_l9mE.js": {
+    "file": "assets/ns-procurement-quantity-BBD_l9mE.js",
+>>>>>>> Stashed changes
     "name": "ns-procurement-quantity",
     "imports": [
       "resources/ts/bootstrap.ts",
@@ -123,8 +176,13 @@
     "file": "assets/ns-reorder-popup-hDLUSLn9.css",
     "src": "_ns-reorder-popup-hDLUSLn9.css"
   },
+<<<<<<< Updated upstream
   "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js": {
     "file": "assets/ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
+=======
+  "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js": {
+    "file": "assets/ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+>>>>>>> Stashed changes
     "name": "ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang",
     "imports": [
       "_lang-BINodpp-.js",
@@ -147,8 +205,13 @@
     "file": "assets/preload-helper-PPVm8Dsz.js",
     "name": "preload-helper"
   },
+<<<<<<< Updated upstream
   "_product-unit-DI_hSwxo.js": {
     "file": "assets/product-unit-DI_hSwxo.js",
+=======
+  "_product-unit-DtW1A2qN.js": {
+    "file": "assets/product-unit-DtW1A2qN.js",
+>>>>>>> Stashed changes
     "name": "product-unit",
     "imports": [
       "resources/ts/bootstrap.ts",
@@ -169,17 +232,30 @@
       "_runtime-core.esm-bundler-DwQcbwxs.js"
     ]
   },
+<<<<<<< Updated upstream
   "_select-api-entities-a_sVm2jW.js": {
     "file": "assets/select-api-entities-a_sVm2jW.js",
     "name": "select-api-entities",
     "imports": [
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
+=======
+  "_select-api-entities-CLdiK-Ic.js": {
+    "file": "assets/select-api-entities-CLdiK-Ic.js",
+    "name": "select-api-entities",
+    "imports": [
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+>>>>>>> Stashed changes
       "resources/ts/bootstrap.ts",
       "_join-array-BIBvzu4q.js"
     ]
   },
+<<<<<<< Updated upstream
   "_time-DJHRVUsc.js": {
     "file": "assets/time-DJHRVUsc.js",
+=======
+  "_time-6EQncj98.js": {
+    "file": "assets/time-6EQncj98.js",
+>>>>>>> Stashed changes
     "name": "time",
     "imports": [
       "resources/ts/bootstrap.ts"
@@ -357,12 +433,17 @@
     ]
   },
   "resources/ts/app-init.ts": {
+<<<<<<< Updated upstream
     "file": "assets/app-init-D1qmVD2b.js",
+=======
+    "file": "assets/app-init-GEp6as9Z.js",
+>>>>>>> Stashed changes
     "name": "app-init",
     "src": "resources/ts/app-init.ts",
     "isEntry": true,
     "imports": [
       "_preload-helper-PPVm8Dsz.js",
+<<<<<<< Updated upstream
       "_time-DJHRVUsc.js",
       "_components-fSoVY9cq.js",
       "_vue.esm-bundler-D7HhxBt5.js",
@@ -377,6 +458,21 @@
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js"
+=======
+      "_time-6EQncj98.js",
+      "_components-DKwolqP8.js",
+      "resources/ts/bootstrap.ts",
+      "_ns-hotpress-BNsPSP9W.js",
+      "_runtime-core.esm-bundler-CF9jxWpW.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_lang-BINodpp-.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js",
+      "_currency-D3_TCvZd.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js",
+      "_chart--HL2-LwL.js"
+>>>>>>> Stashed changes
     ],
     "dynamicImports": [
       "resources/ts/pages/dashboard/rewards-system.vue",
@@ -389,8 +485,13 @@
       "resources/ts/pages/dashboard/procurements/manage-products.vue",
       "resources/ts/pages/dashboard/procurements/ns-procurement-invoice.vue",
       "resources/ts/pages/dashboard/ns-notifications.vue",
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
       "_components-fSoVY9cq.js",
+=======
+      "_components-DKwolqP8.js",
+      "_components-DKwolqP8.js",
+>>>>>>> Stashed changes
       "resources/ts/pages/dashboard/transactions/ns-transaction.vue",
       "resources/ts/pages/dashboard/home/ns-dashboard.vue",
       "resources/ts/pages/dashboard/reports/ns-low-stock-report.vue",
@@ -420,12 +521,17 @@
     "isEntry": true
   },
   "resources/ts/auth.ts": {
+<<<<<<< Updated upstream
     "file": "assets/auth-DcslDPL6.js",
+=======
+    "file": "assets/auth-DJbV-4qj.js",
+>>>>>>> Stashed changes
     "name": "auth",
     "src": "resources/ts/auth.ts",
     "isEntry": true,
     "imports": [
       "_preload-helper-PPVm8Dsz.js",
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
       "_ns-hotpress-BNsPSP9W.js",
       "_vue.esm-bundler-D7HhxBt5.js",
@@ -439,6 +545,20 @@
       "_chart--HL2-LwL.js",
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js"
+=======
+      "_components-DKwolqP8.js",
+      "_ns-hotpress-BNsPSP9W.js",
+      "resources/ts/bootstrap.ts",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_runtime-core.esm-bundler-CF9jxWpW.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_lang-BINodpp-.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js",
+      "_currency-D3_TCvZd.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js",
+      "_chart--HL2-LwL.js"
+>>>>>>> Stashed changes
     ],
     "dynamicImports": [
       "resources/ts/pages/auth/ns-register.vue",
@@ -448,7 +568,11 @@
     ]
   },
   "resources/ts/bootstrap.ts": {
+<<<<<<< Updated upstream
     "file": "assets/bootstrap-Wbe7Hwyl.js",
+=======
+    "file": "assets/bootstrap-BLrbIRxR.js",
+>>>>>>> Stashed changes
     "name": "bootstrap",
     "src": "resources/ts/bootstrap.ts",
     "isEntry": true,
@@ -462,7 +586,11 @@
     ]
   },
   "resources/ts/cashier.ts": {
+<<<<<<< Updated upstream
     "file": "assets/cashier-C_3Rinaq.js",
+=======
+    "file": "assets/cashier-B9vu0LCV.js",
+>>>>>>> Stashed changes
     "name": "cashier",
     "src": "resources/ts/cashier.ts",
     "isEntry": true,
@@ -491,11 +619,16 @@
     ]
   },
   "resources/ts/dev.ts": {
+<<<<<<< Updated upstream
     "file": "assets/dev-BdtxHoqS.js",
+=======
+    "file": "assets/dev-BoVoTdrd.js",
+>>>>>>> Stashed changes
     "name": "dev",
     "src": "resources/ts/dev.ts",
     "isEntry": true,
     "imports": [
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_vue-router-BnDfjHxv.js",
@@ -506,6 +639,18 @@
       "_ns-avatar-YvoxmKg3.js",
       "_lang-BINodpp-.js",
       "_ns-avatar-image-C-y3Lfpo.js",
+=======
+      "_components-DKwolqP8.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_vue-router-oIcXAn2A.js",
+      "resources/ts/bootstrap.ts",
+      "__plugin-vue_export-helper-DlAUqK2U.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_runtime-core.esm-bundler-CF9jxWpW.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_lang-BINodpp-.js",
+      "_ns-avatar-image-BiCXiaX2.js",
+>>>>>>> Stashed changes
       "_currency-D3_TCvZd.js",
       "_chart--HL2-LwL.js",
       "_vue.esm-bundler-D7HhxBt5.js"
@@ -518,7 +663,11 @@
     "isEntry": true
   },
   "resources/ts/pages/auth/ns-login.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-login-W_lIplxy.js",
+=======
+    "file": "assets/ns-login-BBllK7wM.js",
+>>>>>>> Stashed changes
     "name": "ns-login",
     "src": "resources/ts/pages/auth/ns-login.vue",
     "isDynamicEntry": true,
@@ -534,7 +683,11 @@
     ]
   },
   "resources/ts/pages/auth/ns-new-password.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-new-password-DkVR4TOf.js",
+=======
+    "file": "assets/ns-new-password-qBKIkVYD.js",
+>>>>>>> Stashed changes
     "name": "ns-new-password",
     "src": "resources/ts/pages/auth/ns-new-password.vue",
     "isDynamicEntry": true,
@@ -550,7 +703,11 @@
     ]
   },
   "resources/ts/pages/auth/ns-password-lost.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-password-lost-hSdjsanT.js",
+=======
+    "file": "assets/ns-password-lost-BdBZz-qM.js",
+>>>>>>> Stashed changes
     "name": "ns-password-lost",
     "src": "resources/ts/pages/auth/ns-password-lost.vue",
     "isDynamicEntry": true,
@@ -566,7 +723,11 @@
     ]
   },
   "resources/ts/pages/auth/ns-register.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-register-Cz2Q2AEa.js",
+=======
+    "file": "assets/ns-register-CZkj34Ag.js",
+>>>>>>> Stashed changes
     "name": "ns-register",
     "src": "resources/ts/pages/auth/ns-register.vue",
     "isDynamicEntry": true,
@@ -582,7 +743,11 @@
     ]
   },
   "resources/ts/pages/dashboard/create-coupons.vue": {
+<<<<<<< Updated upstream
     "file": "assets/create-coupons-JaBQ5uBq.js",
+=======
+    "file": "assets/create-coupons-CzdxZd28.js",
+>>>>>>> Stashed changes
     "name": "create-coupons",
     "src": "resources/ts/pages/dashboard/create-coupons.vue",
     "isDynamicEntry": true,
@@ -610,15 +775,24 @@
     ]
   },
   "resources/ts/pages/dashboard/modules.vue": {
+<<<<<<< Updated upstream
     "file": "assets/modules-DOmpqaZb.js",
+=======
+    "file": "assets/modules-gMaOSrzm.js",
+>>>>>>> Stashed changes
     "name": "modules",
     "src": "resources/ts/pages/dashboard/modules.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
       "_lang-BINodpp-.js",
+<<<<<<< Updated upstream
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
+=======
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+>>>>>>> Stashed changes
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_currency-D3_TCvZd.js",
@@ -627,7 +801,11 @@
     ]
   },
   "resources/ts/pages/dashboard/modules/ns-marketplace.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-marketplace-BhvAYz9d.js",
+=======
+    "file": "assets/ns-marketplace-CBtQFA88.js",
+>>>>>>> Stashed changes
     "name": "ns-marketplace",
     "src": "resources/ts/pages/dashboard/modules/ns-marketplace.vue",
     "isDynamicEntry": true,
@@ -643,19 +821,29 @@
     ]
   },
   "resources/ts/pages/dashboard/ns-notifications.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-notifications-B_MxbatO.js",
+=======
+    "file": "assets/ns-notifications-BaNrLWPG.js",
+>>>>>>> Stashed changes
     "name": "ns-notifications",
     "src": "resources/ts/pages/dashboard/ns-notifications.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
       "_lang-BINodpp-.js",
+<<<<<<< Updated upstream
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_components-fSoVY9cq.js",
+=======
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_components-DKwolqP8.js",
+>>>>>>> Stashed changes
       "_currency-D3_TCvZd.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_chart--HL2-LwL.js",
+<<<<<<< Updated upstream
       "_vue.esm-bundler-D7HhxBt5.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_ns-avatar-YvoxmKg3.js",
@@ -664,6 +852,15 @@
   },
   "resources/ts/pages/dashboard/ns-permissions.vue": {
     "file": "assets/ns-permissions-CQDxZjCm.js",
+=======
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js"
+    ]
+  },
+  "resources/ts/pages/dashboard/ns-permissions.vue": {
+    "file": "assets/ns-permissions-BO2dURvn.js",
+>>>>>>> Stashed changes
     "name": "ns-permissions",
     "src": "resources/ts/pages/dashboard/ns-permissions.vue",
     "isDynamicEntry": true,
@@ -679,13 +876,18 @@
     ]
   },
   "resources/ts/pages/dashboard/ns-settings.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-settings-CT7HHiHq.js",
+=======
+    "file": "assets/ns-settings-BSp0reWO.js",
+>>>>>>> Stashed changes
     "name": "ns-settings",
     "src": "resources/ts/pages/dashboard/ns-settings.vue",
     "isDynamicEntry": true,
     "imports": [
       "_lang-BINodpp-.js",
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
@@ -696,6 +898,17 @@
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js"
+=======
+      "_components-DKwolqP8.js",
+      "_runtime-core.esm-bundler-CF9jxWpW.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js",
+      "_currency-D3_TCvZd.js",
+      "_chart--HL2-LwL.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js"
+>>>>>>> Stashed changes
     ]
   },
   "resources/ts/pages/dashboard/orders/ns-order-invoice.vue": {
@@ -711,22 +924,36 @@
     ]
   },
   "resources/ts/pages/dashboard/pos/header-buttons/ns-pos-customers-button.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-pos-customers-button-DT71hf9S.js",
+=======
+    "file": "assets/ns-pos-customers-button-CeUPc7DG.js",
+>>>>>>> Stashed changes
     "name": "ns-pos-customers-button",
     "src": "resources/ts/pages/dashboard/pos/header-buttons/ns-pos-customers-button.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
       "_lang-BINodpp-.js",
+<<<<<<< Updated upstream
       "_ns-pos-shipping-popup-Wxy_X7O0.js",
+=======
+      "_ns-pos-shipping-popup-J2_RdaGm.js",
+>>>>>>> Stashed changes
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_currency-D3_TCvZd.js",
       "_chart--HL2-LwL.js",
+<<<<<<< Updated upstream
       "_vue.esm-bundler-D7HhxBt5.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_ns-orders-preview-popup-ageqe_d0.js"
+=======
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_ns-orders-preview-popup-C-WaC5_K.js"
+>>>>>>> Stashed changes
     ]
   },
   "resources/ts/pages/dashboard/pos/header-buttons/ns-pos-dashboard-button.vue": {
@@ -741,34 +968,56 @@
     ]
   },
   "resources/ts/pages/dashboard/pos/header-buttons/ns-pos-order-type-button.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-pos-order-type-button-CWMtRQsd.js",
+=======
+    "file": "assets/ns-pos-order-type-button-D_84JZrj.js",
+>>>>>>> Stashed changes
     "name": "ns-pos-order-type-button",
     "src": "resources/ts/pages/dashboard/pos/header-buttons/ns-pos-order-type-button.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_ns-pos-shipping-popup-Wxy_X7O0.js",
+=======
+      "_ns-pos-shipping-popup-J2_RdaGm.js",
+>>>>>>> Stashed changes
       "_lang-BINodpp-.js",
       "_action-permissions-BRTuWXOW.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_currency-D3_TCvZd.js",
       "_chart--HL2-LwL.js",
+<<<<<<< Updated upstream
       "_vue.esm-bundler-D7HhxBt5.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_ns-orders-preview-popup-ageqe_d0.js",
+=======
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_ns-orders-preview-popup-C-WaC5_K.js",
+>>>>>>> Stashed changes
       "_browser-DP6ZXyFS.js"
     ]
   },
   "resources/ts/pages/dashboard/pos/header-buttons/ns-pos-pending-orders-button.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-pos-pending-orders-button-DI0HZzS_.js",
+=======
+    "file": "assets/ns-pos-pending-orders-button-Dqvzd_Uf.js",
+>>>>>>> Stashed changes
     "name": "ns-pos-pending-orders-button",
     "src": "resources/ts/pages/dashboard/pos/header-buttons/ns-pos-pending-orders-button.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
+=======
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+>>>>>>> Stashed changes
       "_currency-D3_TCvZd.js",
       "_lang-BINodpp-.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
@@ -779,13 +1028,21 @@
     ]
   },
   "resources/ts/pages/dashboard/pos/header-buttons/ns-pos-registers-button.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-pos-registers-button-CZbQ9Hd0.js",
+=======
+    "file": "assets/ns-pos-registers-button-phw9j75S.js",
+>>>>>>> Stashed changes
     "name": "ns-pos-registers-button",
     "src": "resources/ts/pages/dashboard/pos/header-buttons/ns-pos-registers-button.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
+=======
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+>>>>>>> Stashed changes
       "_lang-BINodpp-.js",
       "_currency-D3_TCvZd.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
@@ -796,13 +1053,21 @@
     ]
   },
   "resources/ts/pages/dashboard/pos/header-buttons/ns-pos-reset-button.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-pos-reset-button-RpzQM32H.js",
+=======
+    "file": "assets/ns-pos-reset-button-B1Xr7KhG.js",
+>>>>>>> Stashed changes
     "name": "ns-pos-reset-button",
     "src": "resources/ts/pages/dashboard/pos/header-buttons/ns-pos-reset-button.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
+=======
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+>>>>>>> Stashed changes
       "_lang-BINodpp-.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
@@ -813,7 +1078,11 @@
     ]
   },
   "resources/ts/pages/dashboard/pos/ns-pos-cart.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-pos-cart-BxYQ7reK.js",
+=======
+    "file": "assets/ns-pos-cart-DKM54FJO.js",
+>>>>>>> Stashed changes
     "name": "ns-pos-cart",
     "src": "resources/ts/pages/dashboard/pos/ns-pos-cart.vue",
     "isDynamicEntry": true,
@@ -822,6 +1091,7 @@
       "_currency-D3_TCvZd.js",
       "_lang-BINodpp-.js",
       "_pos-section-switch-DmfccXVX.js",
+<<<<<<< Updated upstream
       "_ns-pos-shipping-popup-Wxy_X7O0.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
@@ -831,11 +1101,25 @@
       "_chart--HL2-LwL.js",
       "_vue.esm-bundler-D7HhxBt5.js",
       "_ns-orders-preview-popup-ageqe_d0.js",
+=======
+      "_ns-pos-shipping-popup-J2_RdaGm.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js",
+      "_runtime-core.esm-bundler-CF9jxWpW.js",
+      "_action-permissions-BliI1JUO.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_chart--HL2-LwL.js",
+      "_ns-orders-preview-popup-C-WaC5_K.js",
+>>>>>>> Stashed changes
       "_browser-DP6ZXyFS.js"
     ]
   },
   "resources/ts/pages/dashboard/pos/ns-pos-grid.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-pos-grid-COZY6_d1.js",
+=======
+    "file": "assets/ns-pos-grid-CEdBEu9B.js",
+>>>>>>> Stashed changes
     "name": "ns-pos-grid",
     "src": "resources/ts/pages/dashboard/pos/ns-pos-grid.vue",
     "isDynamicEntry": true,
@@ -843,12 +1127,18 @@
       "resources/ts/bootstrap.ts",
       "_pos-section-switch-DmfccXVX.js",
       "_lang-BINodpp-.js",
+<<<<<<< Updated upstream
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
+=======
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+>>>>>>> Stashed changes
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_currency-D3_TCvZd.js",
       "_browser-DP6ZXyFS.js",
+<<<<<<< Updated upstream
       "_product-unit-DI_hSwxo.js",
       "_chart--HL2-LwL.js",
       "_vue.esm-bundler-D7HhxBt5.js"
@@ -856,6 +1146,14 @@
   },
   "resources/ts/pages/dashboard/pos/ns-pos.vue": {
     "file": "assets/ns-pos-_ueu_MPT.js",
+=======
+      "_product-unit-DtW1A2qN.js",
+      "_chart--HL2-LwL.js"
+    ]
+  },
+  "resources/ts/pages/dashboard/pos/ns-pos.vue": {
+    "file": "assets/ns-pos-C2CTixSu.js",
+>>>>>>> Stashed changes
     "name": "ns-pos",
     "src": "resources/ts/pages/dashboard/pos/ns-pos.vue",
     "isDynamicEntry": true,
@@ -871,6 +1169,7 @@
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_lang-BINodpp-.js",
       "_pos-section-switch-DmfccXVX.js",
+<<<<<<< Updated upstream
       "_ns-pos-shipping-popup-Wxy_X7O0.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_ns-orders-preview-popup-ageqe_d0.js",
@@ -881,22 +1180,46 @@
   },
   "resources/ts/pages/dashboard/procurements/manage-products.vue": {
     "file": "assets/manage-products-DH2oundZ.js",
+=======
+      "_ns-pos-shipping-popup-J2_RdaGm.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_ns-orders-preview-popup-C-WaC5_K.js",
+      "_action-permissions-BliI1JUO.js",
+      "_browser-DP6ZXyFS.js",
+      "_product-unit-DtW1A2qN.js"
+    ]
+  },
+  "resources/ts/pages/dashboard/procurements/manage-products.vue": {
+    "file": "assets/manage-products-DzOzTAUo.js",
+>>>>>>> Stashed changes
     "name": "manage-products",
     "src": "resources/ts/pages/dashboard/procurements/manage-products.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
+=======
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+>>>>>>> Stashed changes
       "_lang-BINodpp-.js",
       "_currency-D3_TCvZd.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
+<<<<<<< Updated upstream
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_components-fSoVY9cq.js",
       "_chart--HL2-LwL.js",
       "_vue.esm-bundler-D7HhxBt5.js",
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js"
+=======
+      "_runtime-core.esm-bundler-CF9jxWpW.js",
+      "_components-DKwolqP8.js",
+      "_chart--HL2-LwL.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js"
+>>>>>>> Stashed changes
     ]
   },
   "resources/ts/pages/dashboard/procurements/ns-procurement-invoice.vue": {
@@ -906,7 +1229,11 @@
     "isDynamicEntry": true
   },
   "resources/ts/pages/dashboard/procurements/ns-procurement.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-procurement-B6ebzYqh.js",
+=======
+    "file": "assets/ns-procurement-CprzSpU3.js",
+>>>>>>> Stashed changes
     "name": "ns-procurement",
     "src": "resources/ts/pages/dashboard/procurements/ns-procurement.vue",
     "isDynamicEntry": true,
@@ -916,6 +1243,7 @@
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_currency-D3_TCvZd.js",
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_select-api-entities-a_sVm2jW.js",
@@ -924,6 +1252,15 @@
       "_vue.esm-bundler-D7HhxBt5.js",
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js",
+=======
+      "_components-DKwolqP8.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_select-api-entities-CLdiK-Ic.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_chart--HL2-LwL.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js",
+>>>>>>> Stashed changes
       "_join-array-BIBvzu4q.js"
     ]
   },
@@ -940,14 +1277,23 @@
     ]
   },
   "resources/ts/pages/dashboard/products/ns-stock-adjustment.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-stock-adjustment-a_elnyEP.js",
+=======
+    "file": "assets/ns-stock-adjustment-DG8n6hq4.js",
+>>>>>>> Stashed changes
     "name": "ns-stock-adjustment",
     "src": "resources/ts/pages/dashboard/products/ns-stock-adjustment.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_ns-procurement-quantity-DWEfDANb.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
+=======
+      "_ns-procurement-quantity-BBD_l9mE.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+>>>>>>> Stashed changes
       "_lang-BINodpp-.js",
       "_currency-D3_TCvZd.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
@@ -958,7 +1304,11 @@
     ]
   },
   "resources/ts/pages/dashboard/profile/ns-token.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-token-DxL6VXDY.js",
+=======
+    "file": "assets/ns-token-DLMAjCcv.js",
+>>>>>>> Stashed changes
     "name": "ns-token",
     "src": "resources/ts/pages/dashboard/profile/ns-token.vue",
     "isDynamicEntry": true,
@@ -966,7 +1316,11 @@
       "resources/ts/bootstrap.ts",
       "_lang-BINodpp-.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
+<<<<<<< Updated upstream
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
+=======
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+>>>>>>> Stashed changes
       "_browser-DP6ZXyFS.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
@@ -976,18 +1330,27 @@
     ]
   },
   "resources/ts/pages/dashboard/reports/ns-best-products-report.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-best-products-report-9IHyt2Bt.js",
+=======
+    "file": "assets/ns-best-products-report-BLiiiFEE.js",
+>>>>>>> Stashed changes
     "name": "ns-best-products-report",
     "src": "resources/ts/pages/dashboard/reports/ns-best-products-report.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
+=======
+      "_components-DKwolqP8.js",
+>>>>>>> Stashed changes
       "_currency-D3_TCvZd.js",
       "_lang-BINodpp-.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_chart--HL2-LwL.js",
+<<<<<<< Updated upstream
       "_vue.esm-bundler-D7HhxBt5.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
@@ -997,22 +1360,43 @@
   },
   "resources/ts/pages/dashboard/reports/ns-cash-flow-report.vue": {
     "file": "assets/ns-cash-flow-report-BBzUzMg1.js",
+=======
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js"
+    ]
+  },
+  "resources/ts/pages/dashboard/reports/ns-cash-flow-report.vue": {
+    "file": "assets/ns-cash-flow-report-bRvWYzby.js",
+>>>>>>> Stashed changes
     "name": "ns-cash-flow-report",
     "src": "resources/ts/pages/dashboard/reports/ns-cash-flow-report.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
+=======
+      "_components-DKwolqP8.js",
+>>>>>>> Stashed changes
       "_lang-BINodpp-.js",
       "_currency-D3_TCvZd.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_chart--HL2-LwL.js",
+<<<<<<< Updated upstream
       "_vue.esm-bundler-D7HhxBt5.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js"
+=======
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js"
+>>>>>>> Stashed changes
     ]
   },
   "resources/ts/pages/dashboard/reports/ns-customers-statement-report.vue": {
@@ -1028,11 +1412,16 @@
     ]
   },
   "resources/ts/pages/dashboard/reports/ns-low-stock-report.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-low-stock-report-Bnl5BO_O.js",
+=======
+    "file": "assets/ns-low-stock-report-C1Z9k-iz.js",
+>>>>>>> Stashed changes
     "name": "ns-low-stock-report",
     "src": "resources/ts/pages/dashboard/reports/ns-low-stock-report.vue",
     "isDynamicEntry": true,
     "imports": [
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
       "resources/ts/bootstrap.ts",
       "_lang-BINodpp-.js",
@@ -1050,17 +1439,40 @@
   },
   "resources/ts/pages/dashboard/reports/ns-payment-types-report.vue": {
     "file": "assets/ns-payment-types-report-Be0BJOnI.js",
+=======
+      "_components-DKwolqP8.js",
+      "resources/ts/bootstrap.ts",
+      "_lang-BINodpp-.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_currency-D3_TCvZd.js",
+      "_join-array-BIBvzu4q.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js",
+      "_runtime-core.esm-bundler-CF9jxWpW.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_chart--HL2-LwL.js"
+    ]
+  },
+  "resources/ts/pages/dashboard/reports/ns-payment-types-report.vue": {
+    "file": "assets/ns-payment-types-report-Cp8VZRkS.js",
+>>>>>>> Stashed changes
     "name": "ns-payment-types-report",
     "src": "resources/ts/pages/dashboard/reports/ns-payment-types-report.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
+=======
+      "_components-DKwolqP8.js",
+>>>>>>> Stashed changes
       "_lang-BINodpp-.js",
       "_currency-D3_TCvZd.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_chart--HL2-LwL.js",
+<<<<<<< Updated upstream
       "_vue.esm-bundler-D7HhxBt5.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
@@ -1070,41 +1482,76 @@
   },
   "resources/ts/pages/dashboard/reports/ns-profit-report.vue": {
     "file": "assets/ns-profit-report-CCKhXQo-.js",
+=======
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js"
+    ]
+  },
+  "resources/ts/pages/dashboard/reports/ns-profit-report.vue": {
+    "file": "assets/ns-profit-report-TZXav6no.js",
+>>>>>>> Stashed changes
     "name": "ns-profit-report",
     "src": "resources/ts/pages/dashboard/reports/ns-profit-report.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
       "_lang-BINodpp-.js",
       "_currency-D3_TCvZd.js",
       "_select-api-entities-a_sVm2jW.js",
+=======
+      "_components-DKwolqP8.js",
+      "_lang-BINodpp-.js",
+      "_currency-D3_TCvZd.js",
+      "_select-api-entities-CLdiK-Ic.js",
+>>>>>>> Stashed changes
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_chart--HL2-LwL.js",
+<<<<<<< Updated upstream
       "_vue.esm-bundler-D7HhxBt5.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js",
+=======
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js",
+>>>>>>> Stashed changes
       "_join-array-BIBvzu4q.js"
     ]
   },
   "resources/ts/pages/dashboard/reports/ns-sale-report.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-sale-report-BQlg9dbe.js",
+=======
+    "file": "assets/ns-sale-report-25brACmJ.js",
+>>>>>>> Stashed changes
     "name": "ns-sale-report",
     "src": "resources/ts/pages/dashboard/reports/ns-sale-report.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
       "_lang-BINodpp-.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
+=======
+      "_components-DKwolqP8.js",
+      "_lang-BINodpp-.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+>>>>>>> Stashed changes
       "_currency-D3_TCvZd.js",
       "_join-array-BIBvzu4q.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_chart--HL2-LwL.js",
+<<<<<<< Updated upstream
       "_vue.esm-bundler-D7HhxBt5.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_ns-avatar-YvoxmKg3.js",
@@ -1113,60 +1560,106 @@
   },
   "resources/ts/pages/dashboard/reports/ns-sold-stock-report.vue": {
     "file": "assets/ns-sold-stock-report-BXRSUEAG.js",
+=======
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js"
+    ]
+  },
+  "resources/ts/pages/dashboard/reports/ns-sold-stock-report.vue": {
+    "file": "assets/ns-sold-stock-report-CdSXFM1K.js",
+>>>>>>> Stashed changes
     "name": "ns-sold-stock-report",
     "src": "resources/ts/pages/dashboard/reports/ns-sold-stock-report.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
       "_lang-BINodpp-.js",
       "_currency-D3_TCvZd.js",
       "_select-api-entities-a_sVm2jW.js",
+=======
+      "_components-DKwolqP8.js",
+      "_lang-BINodpp-.js",
+      "_currency-D3_TCvZd.js",
+      "_select-api-entities-CLdiK-Ic.js",
+>>>>>>> Stashed changes
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_chart--HL2-LwL.js",
+<<<<<<< Updated upstream
       "_vue.esm-bundler-D7HhxBt5.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js",
+=======
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js",
+>>>>>>> Stashed changes
       "_join-array-BIBvzu4q.js"
     ]
   },
   "resources/ts/pages/dashboard/reports/ns-stock-combined-report.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-stock-combined-report-BNLwzXEA.js",
+=======
+    "file": "assets/ns-stock-combined-report-C75y0bJL.js",
+>>>>>>> Stashed changes
     "name": "ns-stock-combined-report",
     "src": "resources/ts/pages/dashboard/reports/ns-stock-combined-report.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
       "_lang-BINodpp-.js",
+<<<<<<< Updated upstream
       "_select-api-entities-a_sVm2jW.js",
+=======
+      "_select-api-entities-CLdiK-Ic.js",
+>>>>>>> Stashed changes
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_currency-D3_TCvZd.js",
       "_chart--HL2-LwL.js",
+<<<<<<< Updated upstream
       "_vue.esm-bundler-D7HhxBt5.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
+=======
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+>>>>>>> Stashed changes
       "_join-array-BIBvzu4q.js"
     ]
   },
   "resources/ts/pages/dashboard/reports/ns-yearly-report.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-yearly-report-BO52i8yv.js",
+=======
+    "file": "assets/ns-yearly-report-CW5njJSp.js",
+>>>>>>> Stashed changes
     "name": "ns-yearly-report",
     "src": "resources/ts/pages/dashboard/reports/ns-yearly-report.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
+=======
+      "_components-DKwolqP8.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+>>>>>>> Stashed changes
       "_lang-BINodpp-.js",
       "_currency-D3_TCvZd.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_chart--HL2-LwL.js",
+<<<<<<< Updated upstream
       "_vue.esm-bundler-D7HhxBt5.js",
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js"
@@ -1174,6 +1667,14 @@
   },
   "resources/ts/pages/dashboard/reset.vue": {
     "file": "assets/reset-Dj7R5_k-.js",
+=======
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js"
+    ]
+  },
+  "resources/ts/pages/dashboard/reset.vue": {
+    "file": "assets/reset-Dx7qsJ6X.js",
+>>>>>>> Stashed changes
     "name": "reset",
     "src": "resources/ts/pages/dashboard/reset.vue",
     "isDynamicEntry": true,
@@ -1189,7 +1690,11 @@
     ]
   },
   "resources/ts/pages/dashboard/rewards-system.vue": {
+<<<<<<< Updated upstream
     "file": "assets/rewards-system-DPPUsfha.js",
+=======
+    "file": "assets/rewards-system-yg7ZGjF4.js",
+>>>>>>> Stashed changes
     "name": "rewards-system",
     "src": "resources/ts/pages/dashboard/rewards-system.vue",
     "isDynamicEntry": true,
@@ -1215,13 +1720,21 @@
     ]
   },
   "resources/ts/pages/dashboard/transactions/ns-transaction.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-transaction-onLRscZd.js",
+=======
+    "file": "assets/ns-transaction-DQvHDgAX.js",
+>>>>>>> Stashed changes
     "name": "ns-transaction",
     "src": "resources/ts/pages/dashboard/transactions/ns-transaction.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
+=======
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+>>>>>>> Stashed changes
       "_lang-BINodpp-.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_currency-D3_TCvZd.js",
@@ -1232,14 +1745,23 @@
     ]
   },
   "resources/ts/pages/dashboard/transactions/ns-transactions-rules.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-transactions-rules-CpjJ6Djh.js",
+=======
+    "file": "assets/ns-transactions-rules-CmYu1JvX.js",
+>>>>>>> Stashed changes
     "name": "ns-transactions-rules",
     "src": "resources/ts/pages/dashboard/transactions/ns-transactions-rules.vue",
     "isDynamicEntry": true,
     "imports": [
       "resources/ts/bootstrap.ts",
+<<<<<<< Updated upstream
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_components-fSoVY9cq.js",
+=======
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_components-DKwolqP8.js",
+>>>>>>> Stashed changes
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_currency-D3_TCvZd.js",
@@ -1247,12 +1769,21 @@
       "_vue.esm-bundler-D7HhxBt5.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_lang-BINodpp-.js",
+<<<<<<< Updated upstream
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js"
     ]
   },
   "resources/ts/pages/setup/database.vue": {
     "file": "assets/database-7-iw2x-f.js",
+=======
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js"
+    ]
+  },
+  "resources/ts/pages/setup/database.vue": {
+    "file": "assets/database-NIaI_ZnB.js",
+>>>>>>> Stashed changes
     "name": "database",
     "src": "resources/ts/pages/setup/database.vue",
     "isDynamicEntry": true,
@@ -1268,7 +1799,11 @@
     ]
   },
   "resources/ts/pages/setup/setup-configuration.vue": {
+<<<<<<< Updated upstream
     "file": "assets/setup-configuration-CzNGRHwY.js",
+=======
+    "file": "assets/setup-configuration-BiQc6TDd.js",
+>>>>>>> Stashed changes
     "name": "setup-configuration",
     "src": "resources/ts/pages/setup/setup-configuration.vue",
     "isDynamicEntry": true,
@@ -1295,34 +1830,57 @@
     ]
   },
   "resources/ts/popups.ts": {
+<<<<<<< Updated upstream
     "file": "assets/popups-D1LT7sth.js",
+=======
+    "file": "assets/popups-DWyjdakg.js",
+>>>>>>> Stashed changes
     "name": "popups",
     "src": "resources/ts/popups.ts",
     "isEntry": true,
     "imports": [
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_ns-orders-preview-popup-ageqe_d0.js",
       "_ns-procurement-quantity-DWEfDANb.js",
+=======
+      "_components-DKwolqP8.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_ns-orders-preview-popup-C-WaC5_K.js",
+      "_ns-procurement-quantity-BBD_l9mE.js",
+>>>>>>> Stashed changes
       "_currency-D3_TCvZd.js",
       "resources/ts/bootstrap.ts",
       "_lang-BINodpp-.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
+<<<<<<< Updated upstream
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js",
       "_vue.esm-bundler-D7HhxBt5.js",
+=======
+      "_runtime-core.esm-bundler-CF9jxWpW.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js",
+>>>>>>> Stashed changes
       "_chart--HL2-LwL.js"
     ]
   },
   "resources/ts/pos-init.ts": {
+<<<<<<< Updated upstream
     "file": "assets/pos-init-BHuQRI_1.js",
+=======
+    "file": "assets/pos-init-CLLFqxDr.js",
+>>>>>>> Stashed changes
     "name": "pos-init",
     "src": "resources/ts/pos-init.ts",
     "isEntry": true,
     "imports": [
       "_preload-helper-PPVm8Dsz.js",
+<<<<<<< Updated upstream
       "_ns-pos-shipping-popup-Wxy_X7O0.js",
       "_product-unit-DI_hSwxo.js",
       "resources/ts/bootstrap.ts",
@@ -1335,6 +1893,19 @@
       "_ns-orders-preview-popup-ageqe_d0.js",
       "_chart--HL2-LwL.js",
       "_vue.esm-bundler-D7HhxBt5.js"
+=======
+      "_ns-pos-shipping-popup-J2_RdaGm.js",
+      "_product-unit-DtW1A2qN.js",
+      "resources/ts/bootstrap.ts",
+      "_lang-BINodpp-.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_currency-D3_TCvZd.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js",
+      "_runtime-core.esm-bundler-CF9jxWpW.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-orders-preview-popup-C-WaC5_K.js",
+      "_chart--HL2-LwL.js"
+>>>>>>> Stashed changes
     ],
     "dynamicImports": [
       "resources/ts/pages/dashboard/pos/header-buttons/ns-pos-dashboard-button.vue",
@@ -1346,12 +1917,17 @@
     ]
   },
   "resources/ts/pos.ts": {
+<<<<<<< Updated upstream
     "file": "assets/pos-o1xZ-tqH.js",
+=======
+    "file": "assets/pos-B3Zp2s_U.js",
+>>>>>>> Stashed changes
     "name": "pos",
     "src": "resources/ts/pos.ts",
     "isEntry": true,
     "imports": [
       "_preload-helper-PPVm8Dsz.js",
+<<<<<<< Updated upstream
       "_time-DJHRVUsc.js",
       "_components-fSoVY9cq.js",
       "_vue.esm-bundler-D7HhxBt5.js",
@@ -1366,6 +1942,21 @@
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js"
+=======
+      "_time-6EQncj98.js",
+      "_components-DKwolqP8.js",
+      "resources/ts/bootstrap.ts",
+      "_ns-hotpress-BNsPSP9W.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_runtime-core.esm-bundler-CF9jxWpW.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_lang-BINodpp-.js",
+      "__plugin-vue_export-helper-DlAUqK2U.js",
+      "_currency-D3_TCvZd.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js",
+      "_chart--HL2-LwL.js"
+>>>>>>> Stashed changes
     ],
     "dynamicImports": [
       "resources/ts/pages/dashboard/pos/ns-pos.vue",
@@ -1374,16 +1965,27 @@
     ]
   },
   "resources/ts/setup.ts": {
+<<<<<<< Updated upstream
     "file": "assets/setup-B2PuIaC1.js",
+=======
+    "file": "assets/setup-B_eaMPFv.js",
+>>>>>>> Stashed changes
     "name": "setup",
     "src": "resources/ts/setup.ts",
     "isEntry": true,
     "imports": [
       "_preload-helper-PPVm8Dsz.js",
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
       "_vue-router-BnDfjHxv.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
+=======
+      "_components-DKwolqP8.js",
+      "_vue-router-oIcXAn2A.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+>>>>>>> Stashed changes
       "_lang-BINodpp-.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
@@ -1391,8 +1993,13 @@
       "_vue.esm-bundler-D7HhxBt5.js",
       "resources/ts/bootstrap.ts",
       "_chart--HL2-LwL.js",
+<<<<<<< Updated upstream
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js"
+=======
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js"
+>>>>>>> Stashed changes
     ],
     "dynamicImports": [
       "resources/ts/pages/setup/welcome.vue",
@@ -1401,22 +2008,40 @@
     ]
   },
   "resources/ts/update.ts": {
+<<<<<<< Updated upstream
     "file": "assets/update-CAVWnSq1.js",
+=======
+    "file": "assets/update-BScN4YmI.js",
+>>>>>>> Stashed changes
     "name": "update",
     "src": "resources/ts/update.ts",
     "isEntry": true,
     "imports": [
+<<<<<<< Updated upstream
       "_components-fSoVY9cq.js",
       "_vue.esm-bundler-D7HhxBt5.js",
+=======
+      "_components-DKwolqP8.js",
+      "resources/ts/bootstrap.ts",
+>>>>>>> Stashed changes
       "_lang-BINodpp-.js",
       "resources/ts/bootstrap.ts",
       "__plugin-vue_export-helper-DlAUqK2U.js",
+<<<<<<< Updated upstream
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CDeNArFg.js",
       "_currency-D3_TCvZd.js",
       "_ns-avatar-YvoxmKg3.js",
       "_ns-avatar-image-C-y3Lfpo.js",
+=======
+      "_runtime-core.esm-bundler-CF9jxWpW.js",
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-reorder-popup.vue_vue_type_style_index_0_scoped_9fc0b535_lang-CmLYwudm.js",
+      "_currency-D3_TCvZd.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_ns-avatar-image-BiCXiaX2.js",
+>>>>>>> Stashed changes
       "_chart--HL2-LwL.js"
     ]
   },
@@ -1432,7 +2057,11 @@
     ]
   },
   "resources/ts/widgets.ts": {
+<<<<<<< Updated upstream
     "file": "assets/widgets-CeJ392OY.js",
+=======
+    "file": "assets/widgets-C4xxG-3t.js",
+>>>>>>> Stashed changes
     "name": "widgets",
     "src": "resources/ts/widgets.ts",
     "isEntry": true,
@@ -1525,12 +2154,20 @@
     ]
   },
   "resources/ts/widgets/ns-profile-widget.vue": {
+<<<<<<< Updated upstream
     "file": "assets/ns-profile-widget-B73bojh4.js",
+=======
+    "file": "assets/ns-profile-widget-BGvCP4Vq.js",
+>>>>>>> Stashed changes
     "name": "ns-profile-widget",
     "src": "resources/ts/widgets/ns-profile-widget.vue",
     "isDynamicEntry": true,
     "imports": [
+<<<<<<< Updated upstream
       "_ns-avatar-image-C-y3Lfpo.js",
+=======
+      "_ns-avatar-image-BiCXiaX2.js",
+>>>>>>> Stashed changes
       "_currency-D3_TCvZd.js",
       "_lang-BINodpp-.js",
       "__plugin-vue_export-helper-DlAUqK2U.js",
@@ -1562,16 +2199,28 @@
     ]
   },
   "resources/ts/wizard.ts": {
+<<<<<<< Updated upstream
     "file": "assets/wizard-DS4HEbMK.js",
+=======
+    "file": "assets/wizard-DR_Nmzxj.js",
+>>>>>>> Stashed changes
     "name": "wizard",
     "src": "resources/ts/wizard.ts",
     "isEntry": true,
     "imports": [
+<<<<<<< Updated upstream
       "_runtime-dom.esm-bundler-BWPMTccC.js",
       "_ns-avatar-YvoxmKg3.js",
       "_runtime-core.esm-bundler-DwQcbwxs.js",
       "_lang-BINodpp-.js",
       "_ns-avatar-image-C-y3Lfpo.js",
+=======
+      "_runtime-dom.esm-bundler-mL0XFxpN.js",
+      "_ns-avatar-CAnl4nW4.js",
+      "_runtime-core.esm-bundler-CF9jxWpW.js",
+      "_lang-BINodpp-.js",
+      "_ns-avatar-image-BiCXiaX2.js",
+>>>>>>> Stashed changes
       "__plugin-vue_export-helper-DlAUqK2U.js"
     ]
   }

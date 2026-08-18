@@ -177,7 +177,7 @@ class ModulesService
                 ) );
             }
 
-            $xmlElement = new \SimpleXMLElement( $xmlContent );
+            $xmlElement = new SimpleXMLElement( $xmlContent );
 
             if ( $xmlElement->core[0] instanceof SimpleXMLElement ) {
                 $attributes = $xmlElement->core[0]->attributes();
@@ -205,7 +205,7 @@ class ModulesService
             } else {
                 // Fallback: if there is a <description> element without <locale> children, treat its text as English.
                 $descriptionNode = $xmlElement->children()->description ?? null;
-                if ( $descriptionNode instanceof \SimpleXMLElement ) {
+                if ( $descriptionNode instanceof SimpleXMLElement ) {
                     $rawDescription = trim( (string) $descriptionNode );
                     if ( $rawDescription !== '' ) {
                         // Ensure description is an array and assign to 'en'.
@@ -499,7 +499,7 @@ class ModulesService
 
                 throw new ModuleVersionMismatchException( __(
                     sprintf(
-                        __( 'The module "%s" has been disabled as it\'s not compatible with the current version of NexoPOS %s, but requires %s. ' ),
+                        __( 'The module "%s" has been disabled as it\'s not compatible with the current version of MPOS %s, but requires %s. ' ),
                         $module[ 'name' ],
                         config( 'nexopos.version' ),
                         $module[ 'core' ][ 'min-version' ]
@@ -512,7 +512,7 @@ class ModulesService
     /**
      * Boot a module if it's enabled.
      */
-    public function boot( array | null $module = null ): void
+    public function boot( ?array $module = null ): void
     {
         if ( ! empty( $module ) && ( $module[ 'enabled' ] || $module[ 'autoloaded' ] ) ) {
             $this->__boot( $module );
@@ -836,7 +836,7 @@ class ModulesService
 
         if ( in_array( 'config.xml', $files ) ) {
             $file = $extractionFolderName . DIRECTORY_SEPARATOR . $directoryName . DIRECTORY_SEPARATOR . 'config.xml';
-            $xml = new \SimpleXMLElement(
+            $xml = new SimpleXMLElement(
                 Storage::disk( 'ns-modules-temp' )->get( $file )
             );
 
@@ -1485,7 +1485,7 @@ class ModulesService
                     'status' => 'error',
                     'code' => 'version_mismatch',
                     'message' => sprintf(
-                        __( 'The module "%s" cannot be enabled as it requires NexoPOS version %s or higher, but you are running version %s.' ),
+                        __( 'The module "%s" cannot be enabled as it requires MPOS version %s or higher, but you are running version %s.' ),
                         $module[ 'name' ],
                         $module[ 'core' ][ 'min-version' ],
                         config( 'nexopos.version' )
@@ -1944,9 +1944,6 @@ class ModulesService
 
     /**
      * Stream Content
-     * @param string $content
-     * @param array $config
-     * @return ViewView
      */
     public function streamContent( string $content, array $config ): ViewView
     {

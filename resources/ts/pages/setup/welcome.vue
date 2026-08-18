@@ -2,7 +2,7 @@
     <div class="w-full md:w-3/5 lg:w-3/5 self-center">
         <div class="bg-white rounded shadow my-2 overflow-hidden">
             <div class="welcome-box p-3 text-gray-700">
-                <p class="text-gray-600 text-sm">{{ __( 'Thank you for using NexoPOS to manage your store. This installation wizard will help you running NexoPOS in no time.' ) }}</p>
+                <p class="text-gray-600 text-sm">{{ __( 'Thank you for using MPOS to manage your store. This installation wizard will help you running MPOS in no time.' ) }}</p>
                 <br>
                 <p class="text-gray-600 text-sm">{{ __( 'Choose your language to get started.' ) }}</p>
                 <ns-select @change="updateSelectedLanguage()" :field="field"></ns-select>
@@ -35,7 +35,7 @@ export default {
         return {
             field: {
                 label: __( 'Language Selection' ),
-                description: __( 'Select what will be the default language of NexoPOS.' ),
+                description: __( 'Select what will be the default language of MPOS.' ),
                 name: 'language',
                 value: nsLang || 'en', // default language
                 options: Object.values( nsLanguages ).map( (value, index) => {

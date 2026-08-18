@@ -9,7 +9,6 @@ use App\Widgets\BestCashiersWidget;
 use App\Widgets\BestCustomersWidget;
 use App\Widgets\ExpenseCardWidget;
 use App\Widgets\IncompleteSaleCardWidget;
-use App\Widgets\MyNexoPosWidget;
 use App\Widgets\OrdersChartWidget;
 use App\Widgets\OrdersSummaryWidget;
 use App\Widgets\ProfileWidget;
@@ -61,7 +60,6 @@ class WidgetService
             IncompleteSaleCardWidget::class,
             ExpenseCardWidget::class,
             SaleCardWidget::class,
-            MyNexoPosWidget::class,
             BestCustomersWidget::class,
             ProfileWidget::class,
             OrdersChartWidget::class,

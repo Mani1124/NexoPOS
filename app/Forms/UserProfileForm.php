@@ -32,7 +32,6 @@ class UserProfileForm extends SettingsPage
                 'shipping' => include ( dirname( __FILE__ ) . '/user-profile/shipping.php' ),
                 'billing' => include ( dirname( __FILE__ ) . '/user-profile/billing.php' ),
                 'security' => include ( dirname( __FILE__ ) . '/user-profile/security.php' ),
-                'token' => include ( dirname( __FILE__ ) . '/user-profile/token.php' ),
             ] ),
         ];
     }

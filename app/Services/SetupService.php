@@ -247,7 +247,7 @@ class SetupService
 
         return [
             'status' => 'success',
-            'message' => __( 'NexoPOS has been successfully installed.' ),
+            'message' => __( 'MPOS has been successfully installed.' ),
         ];
     }
 

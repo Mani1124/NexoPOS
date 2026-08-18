@@ -31,4 +31,3 @@
         </div>
     </div>
 </div>
-@include( 'common.dashboard-ad' )

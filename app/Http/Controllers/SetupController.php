@@ -24,7 +24,7 @@ class SetupController extends Controller
     public function welcome( Request $request )
     {
         return view( 'pages.setup.welcome', [
-            'title' => __( 'Welcome — NexoPOS' ),
+            'title' => __( 'Welcome — MPOS' ),
             'languages' => config( 'nexopos.languages' ),
             'lang' => $request->query( 'lang' ) ?: 'en',
         ] );

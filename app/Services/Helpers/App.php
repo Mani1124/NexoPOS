@@ -31,14 +31,14 @@ trait App
             if ( DB::connection()->getPdo() ) {
                 return Schema::hasTable( 'nexopos_options' );
             }
-        } catch ( \Exception $e ) {
+        } catch ( Exception $e ) {
             return false;
         }
     }
 
     public static function pageTitle( $string )
     {
-        $storeName = ns()->option->get( 'ns_store_name' ) ?: 'NexoPOS';
+        $storeName = ns()->option->get( 'ns_store_name' ) ?: 'MPOS';
 
         return sprintf(
             Hook::filter( 'ns-page-title', __( '%s — %s' ) ),

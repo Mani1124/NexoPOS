@@ -4,16 +4,21 @@ namespace App\Listeners;
 
 use App\Events\RenderFooterEvent;
 use Carbon\Carbon;
+use Illuminate\Support\Facades\Auth;
 
 class RenderFooterEventListener
 {
     public function handle( RenderFooterEvent $event )
     {
-        $lastSent = ns()->option->get('ns_telemetry_last_sent');
-        $needsSend = empty($lastSent) || Carbon::parse($lastSent)->diffInHours(now()) >= 24;
+        if ( ! Auth::check() ) {
+            return;
+        }
 
-        if ($needsSend) {
-            $event->output->addView('common.telemetry-script');
+        $lastSent = ns()->option->get( 'ns_telemetry_last_sent' );
+        $needsSend = empty( $lastSent ) || Carbon::parse( $lastSent )->diffInHours( now() ) >= 24;
+
+        if ( $needsSend ) {
+            $event->output->addView( 'common.telemetry-script' );
         }
     }
 }

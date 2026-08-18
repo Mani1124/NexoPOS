@@ -47,7 +47,7 @@ if ( Auth::check() ) {
                             @if ( ns()->option->get( 'ns_store_rectangle_logo' ) )
                             <img src="{{ ns()->option->get( 'ns_store_rectangle_logo' ) }}" class="w-11/12" alt="logo"/>
                             @else
-                            <h1 class="font-black text-transparent bg-clip-text bg-gradient-to-b from-blue-200 to-indigo-400 text-3xl">NexoPOS</h1>
+                            <img src="{{ asset( 'migrate/assets/icon-512.png' ) }}" style="height: 70px;" alt="MPOS">
                             @endif
                         </div>
                         <ul id="aside-menu" class="mr-2">
@@ -95,10 +95,10 @@ if ( Auth::check() ) {
                 <div class="p-2 text-xs flex justify-end text-gray-500">
                     @if( $latestVersion = ns()->option->get( 'ns_latest_version' ) )
                     <a href="https://my.nexopos.com/redirect/latest" target="_blank" class="hover:text-blue-400 ml-2 inline-block">
-                        {{ sprintf( __( 'Download NexoPOS %s' ), $latestVersion ) }}
+                        {{ sprintf( __( 'Download MPOS %s' ), $latestVersion ) }}
                     </a>
                     @else
-                    {!! Hook::filter( 'ns-footer-signature', sprintf( __( 'You\'re using <a tager="_blank" href="%s" class="hover:text-blue-400 mx-1 inline-block">NexoPOS %s</a>' ), 'https://my.nexopos.com/en', config( 'nexopos.version' ) ) ) !!}
+                    {!! Hook::filter( 'ns-footer-signature', sprintf( __( 'You\'re using <a tager="_blank" href="%s" class="hover:text-blue-400 mx-1 inline-block">MPOS %s</a>' ), 'https://my.nexopos.com/en', config( 'nexopos.version' ) ) ) !!}
                     @endif
                 </div>
             </div>

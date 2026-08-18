@@ -14,10 +14,10 @@ use App\Events\RenderSignUpFooterEvent;
                 <div class="flex justify-center items-center py-6">
                     @if ( ! ns()->option->get( 'ns_store_square_logo', false ) )
                     <a href="https://my.nexopos.com" target="_blank">
-                        <img class="w-32" src="{{ asset( 'svg/nexopos-variant-1.svg' ) }}" alt="NexoPOS">
+                        <img class="w-32" src="{{ asset( 'svg/nexopos-variant-1.svg' ) }}" alt="MPOS">
                     </a>
                     @else
-                    <img src="{{ ns()->option->get( 'ns_store_square_logo' ) }}" alt="NexoPOS">
+                    <img src="{{ ns()->option->get( 'ns_store_square_logo' ) }}" alt="MPOS">
                     @endif
                 </div>
                 <ns-register></ns-register>
