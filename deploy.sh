@@ -27,10 +27,12 @@ ENV_FILE="$APP_DIR/.env"
 ENV_EXAMPLE="$APP_DIR/.env.example"
 LOCK_FILE="$APP_DIR/.deploy.lock"
 
-if [ -f "$LOCK_FILE" ]; then
-    echo "==> A previous deploy appears to be running ($LOCK_FILE)."
-    echo "    If not, remove it and rerun."
-    exit 1
+if [ "${DEPLOY_REEXEC:-0}" != "1" ]; then
+    if [ -f "$LOCK_FILE" ]; then
+        echo "==> A previous deploy appears to be running ($LOCK_FILE)."
+        echo "    If not, remove it and rerun."
+        exit 1
+    fi
 fi
 trap 'rm -f "$LOCK_FILE"' EXIT
 touch "$LOCK_FILE"
