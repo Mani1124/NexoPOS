@@ -26,6 +26,12 @@ WEB_USER="${WEB_USER:-www-data}"
 ENV_FILE="$APP_DIR/.env"
 ENV_EXAMPLE="$APP_DIR/.env.example"
 LOCK_FILE="$APP_DIR/.deploy.lock"
+TTY="${TTY:-/dev/tty}"
+
+HAS_TTY=0
+if { exec 3<> "$TTY"; } 2>/dev/null; then
+    HAS_TTY=1
+fi
 
 if [ "${DEPLOY_REEXEC:-0}" != "1" ]; then
     if [ -f "$LOCK_FILE" ]; then
@@ -37,24 +43,37 @@ fi
 trap 'rm -f "$LOCK_FILE"' EXIT
 touch "$LOCK_FILE"
 
+TTY="${TTY:-/dev/tty}"
+
 prompt_value() {
-    local label="$1" default="$2" input
-    printf '    %s [%s]: ' "$label" "$default"
-    read -r input
+    local label="$1" default="$2" input=""
+    if [ "$HAS_TTY" = "1" ]; then
+        printf '    %s [%s]: ' "$label" "$default" >&2
+        read -r input <&3 || input=""
+    else
+        read -r input || input=""
+    fi
     echo "${input:-$default}"
 }
 
 prompt_required() {
-    local label="$1" input
-    while :; do
-        printf '    %s: ' "$label"
-        read -r input
+    local label="$1" input="" attempts=0
+    while [ "$attempts" -lt 20 ]; do
+        attempts=$((attempts + 1))
+        if [ "$HAS_TTY" = "1" ]; then
+            printf '    %s: ' "$label" >&2
+            read -r input <&3 || input=""
+        else
+            read -r input || input=""
+        fi
         if [ -n "$input" ]; then
             echo "$input"
             return 0
         fi
-        echo "    Value is required for $label."
+        echo "    Value is required for $label." >&2
     done
+    echo "ERROR: no value provided for $label after $attempts attempts. Aborting." >&2
+    exit 1
 }
 
 set_env_value() {
@@ -158,7 +177,7 @@ if [ ! -f "$ENV_FILE" ] || env_is_placeholder; then
         echo "    .env uses placeholder database settings, reconfiguring..."
     fi
 
-    if [ -t 0 ]; then
+    if [ "$HAS_TTY" = "1" ]; then
         echo "==> Configure .env (press Enter to accept the default):"
         set_env_value 'APP_NAME' "$(prompt_value 'APP_NAME' 'MPOS')"
         set_env_value 'APP_ENV' "$(prompt_value 'APP_ENV' 'production')"
@@ -174,7 +193,9 @@ if [ ! -f "$ENV_FILE" ] || env_is_placeholder; then
         set_env_value 'SANCTUM_STATEFUL_DOMAINS' "$(prompt_value 'SANCTUM_STATEFUL_DOMAINS' 'localhost,127.0.0.1')"
         echo "    .env configured."
     else
-        echo "    non-interactive run detected: edit $ENV_FILE manually, then rerun."
+        echo "    no terminal available for prompting; .env left from .env.example."
+        echo "    Edit $ENV_FILE manually (set DB_DATABASE, DB_USERNAME, DB_PASSWORD, APP_URL),"
+        echo "    then rerun ./deploy.sh."
     fi
 else
     echo "    .env already configured, keeping it"
