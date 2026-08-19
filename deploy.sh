@@ -189,7 +189,7 @@ if [ ! -f "$ENV_FILE" ] || env_is_placeholder; then
         set_env_value 'DB_DATABASE' "$(prompt_required 'DB_DATABASE')"
         set_env_value 'DB_USERNAME' "$(prompt_required 'DB_USERNAME')"
         set_env_value 'DB_PASSWORD' "$(prompt_required 'DB_PASSWORD')"
-        set_env_value 'SESSION_DOMAIN' "$(prompt_required 'SESSION_DOMAIN')"
+        set_env_value 'SESSION_DOMAIN' "$(prompt_value 'SESSION_DOMAIN' '')"
         set_env_value 'SANCTUM_STATEFUL_DOMAINS' "$(prompt_value 'SANCTUM_STATEFUL_DOMAINS' 'localhost,127.0.0.1')"
         echo "    .env configured."
     else

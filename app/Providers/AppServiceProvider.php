@@ -17,7 +17,6 @@ use App\Services\CustomerService;
 use App\Services\DateService;
 use App\Services\DemoService;
 use App\Services\EnvEditor;
-use App\Services\Helper;
 use App\Services\MarketplaceService;
 use App\Services\MathService;
 use App\Services\MediaService;
@@ -274,6 +273,13 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
+        /**
+         * Limit string columns to 191 chars so indexes fit
+         * within the 1000-byte key limit on older MySQL/MariaDB
+         * when using utf8mb4 (4 bytes per char).
+         */
+        Schema::defaultStringLength( 191 );
+
         /**
          * let's create a default sqlite
          * database. This file is not tracked by Git.
