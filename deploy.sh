@@ -35,6 +35,38 @@ fi
 trap 'rm -f "$LOCK_FILE"' EXIT
 touch "$LOCK_FILE"
 
+prompt_value() {
+    local label="$1" default="$2" input
+    printf '    %s [%s]: ' "$label" "$default"
+    read -r input
+    echo "${input:-$default}"
+}
+
+prompt_required() {
+    local label="$1" input
+    while :; do
+        printf '    %s: ' "$label"
+        read -r input
+        if [ -n "$input" ]; then
+            echo "$input"
+            return 0
+        fi
+        echo "    Value is required for $label."
+    done
+}
+
+set_env_value() {
+    local key="$1" value="$2" escaped
+    escaped="$(printf '%s' "$value" | sed 's/[\/&|\\]/\\&/g')"
+
+    if grep -q "^${key}=" "$ENV_FILE"; then
+        sed -i.bak "s|^${key}=.*|${key}=${escaped}|" "$ENV_FILE"
+        rm -f "$ENV_FILE.bak"
+    else
+        printf '%s=%s\n' "$key" "$value" >> "$ENV_FILE"
+    fi
+}
+
 echo "==> Checking prerequisites"
 cd "$APP_DIR"
 
@@ -94,6 +126,25 @@ if [ ! -f "$ENV_FILE" ]; then
     fi
     cp "$ENV_EXAMPLE" "$ENV_FILE"
     echo "    created .env from .env.example"
+
+    if [ -t 0 ]; then
+        echo "==> Configure .env (press Enter to accept the default):"
+        set_env_value 'APP_NAME' "$(prompt_value 'APP_NAME' 'MPOS')"
+        set_env_value 'APP_ENV' "$(prompt_value 'APP_ENV' 'production')"
+        set_env_value 'APP_DEBUG' "$(prompt_value 'APP_DEBUG' 'false')"
+        set_env_value 'APP_URL' "$(prompt_required 'APP_URL')"
+        set_env_value 'DB_CONNECTION' "$(prompt_value 'DB_CONNECTION' 'mysql')"
+        set_env_value 'DB_HOST' "$(prompt_value 'DB_HOST' '127.0.0.1')"
+        set_env_value 'DB_PORT' "$(prompt_value 'DB_PORT' '3306')"
+        set_env_value 'DB_DATABASE' "$(prompt_required 'DB_DATABASE')"
+        set_env_value 'DB_USERNAME' "$(prompt_required 'DB_USERNAME')"
+        set_env_value 'DB_PASSWORD' "$(prompt_required 'DB_PASSWORD')"
+        set_env_value 'SESSION_DOMAIN' "$(prompt_required 'SESSION_DOMAIN')"
+        set_env_value 'SANCTUM_STATEFUL_DOMAINS' "$(prompt_value 'SANCTUM_STATEFUL_DOMAINS' 'localhost,127.0.0.1')"
+        echo "    .env configured."
+    else
+        echo "    non-interactive run detected: edit $ENV_FILE manually, then rerun."
+    fi
 else
     echo "    .env already exists, keeping it"
 fi
