@@ -91,41 +91,59 @@ if [ -n "$GIT_TAG" ]; then
         echo "ERROR: no git repository found in $APP_DIR to checkout tag '$GIT_TAG'."
         exit 1
     fi
-    git fetch --tags --quiet
+    git fetch --tags --quiet 2>/dev/null \
+        || echo "    WARNING: unable to fetch from remote. Using local refs only."
     if git rev-parse --verify "refs/tags/$GIT_TAG" >/dev/null 2>&1; then
-        git checkout --force "refs/tags/$GIT_TAG"
+        echo "    checking out tag: $GIT_TAG"
+        git checkout --force "refs/tags/$GIT_TAG" 2>&1 || {
+            echo "ERROR: could not check out tag '$GIT_TAG'."
+            echo "       This usually happens when untracked files (e.g. public/build or generated files)"
+            echo "       would be overwritten by the checkout. Move them aside and rerun,"
+            echo "       or add them to .gitignore."
+            exit 1
+        }
         echo "    checked out tag: $GIT_TAG"
     elif git rev-parse --verify "refs/heads/$GIT_TAG" >/dev/null 2>&1; then
-        git checkout --force "$GIT_TAG"
-        git pull --ff-only
+        echo "    checking out branch: $GIT_TAG"
+        git checkout --force "$GIT_TAG" 2>&1 || {
+            echo "ERROR: could not check out branch '$GIT_TAG'. See message above."
+            exit 1
+        }
+        git pull --ff-only 2>&1 || echo "    WARNING: could not pull latest changes for branch '$GIT_TAG'."
         echo "    checked out branch: $GIT_TAG"
     else
-        echo "ERROR: tag/branch '$GIT_TAG' not found. Aborting."
+        echo "ERROR: tag/branch '$GIT_TAG' not found."
+        echo "       Run 'git tag' to list available tags."
         exit 1
     fi
 elif [ "${GIT_PULL:-0}" = "1" ] && [ -d "$APP_DIR/.git" ]; then
-    git fetch --quiet
-    git pull --ff-only
+    git fetch --quiet 2>&1 || echo "    WARNING: unable to fetch from remote."
+    git pull --ff-only 2>&1 || {
+        echo "ERROR: git pull failed. See message above."
+        exit 1
+    }
 else
     echo "    skipped (set GIT_PULL=1 or pass a tag to enable)"
 fi
 
-echo "==> Installing PHP dependencies"
-if [ -f "$APP_DIR/composer.lock" ]; then
-    "$COMPOSER_BIN" install --no-interaction --prefer-dist --no-dev --optimize-autoloader \
-        || "$COMPOSER_BIN" install --no-interaction --prefer-dist --optimize-autoloader
-else
-    "$COMPOSER_BIN" install --no-interaction --prefer-dist
-fi
+env_is_placeholder() {
+    [ "$(grep '^DB_DATABASE=' "$ENV_FILE" | cut -d= -f2-)" = "laravel" ] &&
+    [ "$(grep '^DB_USERNAME=' "$ENV_FILE" | cut -d= -f2-)" = "root" ] &&
+    [ -z "$(grep '^DB_PASSWORD=' "$ENV_FILE" | cut -d= -f2-)" ]
+}
 
 echo "==> Setting up .env"
-if [ ! -f "$ENV_FILE" ]; then
-    if [ ! -f "$ENV_EXAMPLE" ]; then
-        echo "ERROR: .env.example not found. Aborting."
-        exit 1
+if [ ! -f "$ENV_FILE" ] || env_is_placeholder; then
+    if [ ! -f "$ENV_FILE" ]; then
+        if [ ! -f "$ENV_EXAMPLE" ]; then
+            echo "ERROR: .env.example not found. Aborting."
+            exit 1
+        fi
+        cp "$ENV_EXAMPLE" "$ENV_FILE"
+        echo "    created .env from .env.example"
+    else
+        echo "    .env uses placeholder database settings, reconfiguring..."
     fi
-    cp "$ENV_EXAMPLE" "$ENV_FILE"
-    echo "    created .env from .env.example"
 
     if [ -t 0 ]; then
         echo "==> Configure .env (press Enter to accept the default):"
@@ -146,7 +164,7 @@ if [ ! -f "$ENV_FILE" ]; then
         echo "    non-interactive run detected: edit $ENV_FILE manually, then rerun."
     fi
 else
-    echo "    .env already exists, keeping it"
+    echo "    .env already configured, keeping it"
 fi
 
 if ! grep -q '^APP_KEY=base64:' "$ENV_FILE" || grep -q '^APP_KEY=$' "$ENV_FILE"; then
@@ -154,6 +172,14 @@ if ! grep -q '^APP_KEY=base64:' "$ENV_FILE" || grep -q '^APP_KEY=$' "$ENV_FILE";
     "$PHP_BIN" artisan key:generate --force
 else
     echo "==> Application key already set"
+fi
+
+echo "==> Installing PHP dependencies"
+if [ -f "$APP_DIR/composer.lock" ]; then
+    "$COMPOSER_BIN" install --no-interaction --prefer-dist --no-dev --optimize-autoloader \
+        || "$COMPOSER_BIN" install --no-interaction --prefer-dist --optimize-autoloader
+else
+    "$COMPOSER_BIN" install --no-interaction --prefer-dist
 fi
 
 echo "==> Running database migrations"
