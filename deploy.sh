@@ -86,7 +86,9 @@ fi
 }
 
 echo "==> Pulling latest code"
-if [ -n "$GIT_TAG" ]; then
+if [ "${DEPLOY_REEXEC:-0}" = "1" ]; then
+    echo "    (re-executed after checkout, skipping git step)"
+elif [ -n "$GIT_TAG" ]; then
     if [ ! -d "$APP_DIR/.git" ]; then
         echo "ERROR: no git repository found in $APP_DIR to checkout tag '$GIT_TAG'."
         exit 1
@@ -103,6 +105,9 @@ if [ -n "$GIT_TAG" ]; then
             exit 1
         }
         echo "    checked out tag: $GIT_TAG"
+        echo "    deploy.sh may have changed - re-executing with the new version..."
+        export DEPLOY_REEXEC=1
+        exec bash "$0" "$@"
     elif git rev-parse --verify "refs/heads/$GIT_TAG" >/dev/null 2>&1; then
         echo "    checking out branch: $GIT_TAG"
         git checkout --force "$GIT_TAG" 2>&1 || {
@@ -111,6 +116,9 @@ if [ -n "$GIT_TAG" ]; then
         }
         git pull --ff-only 2>&1 || echo "    WARNING: could not pull latest changes for branch '$GIT_TAG'."
         echo "    checked out branch: $GIT_TAG"
+        echo "    deploy.sh may have changed - re-executing with the new version..."
+        export DEPLOY_REEXEC=1
+        exec bash "$0" "$@"
     else
         echo "ERROR: tag/branch '$GIT_TAG' not found."
         echo "       Run 'git tag' to list available tags."
@@ -122,6 +130,9 @@ elif [ "${GIT_PULL:-0}" = "1" ] && [ -d "$APP_DIR/.git" ]; then
         echo "ERROR: git pull failed. See message above."
         exit 1
     }
+    echo "    deploy.sh may have changed - re-executing with the new version..."
+    export DEPLOY_REEXEC=1
+    exec bash "$0" "$@"
 else
     echo "    skipped (set GIT_PULL=1 or pass a tag to enable)"
 fi
